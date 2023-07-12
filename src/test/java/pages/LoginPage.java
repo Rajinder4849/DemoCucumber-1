@@ -22,6 +22,9 @@ public class LoginPage {
 	WebElement loginButton;
 	@FindBy(id = "nameofuser")
 	WebElement nameofuser;
+	
+	@FindBy(partialLinkText = "Login")
+	WebElement nameofuser1;
 
 	/**
 	 * This method is used to login in to Demo blaze applications
